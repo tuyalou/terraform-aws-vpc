@@ -1,5 +1,5 @@
 module "vpc" { 
-    source = "./module" 
+    source          =      "./module" 
     region          =      "us-east-1"
     region_name     =      "virginia"
     vpc_cidr        =      "192.168.0.0/16"
